@@ -9,23 +9,24 @@ import { NewsApiService } from './news-api.service';
 })
 export class AppComponent {
 
-  mArticles:Array<any>;
-  mSources:Array<any>;
-  
-  constructor(private newsapi:NewsApiService){
-    console.log('app component constructor called');         
+  mArticles: Array<any>;
+  mSources: Array<any>;
+
+  constructor(private newsapi: NewsApiService) {
+    console.log('app component constructor called');
   }
 
+// tslint:disable-next-line: use-life-cycle-interface
   ngOnInit() {
-      //load articles
+      // load articles
       this.newsapi.initArticles().subscribe(data => this.mArticles = data['articles']);
-    //load news sources
-    this.newsapi.initSources().subscribe(data=> this.mSources = data['sources']);  
+    // load news sources
+    this.newsapi.initSources().subscribe(data => this.mSources = data['sources']);
     }
 
-  searchArticles(source){
-    console.log("selected source is: "+source);
+  searchArticles(source) {
+    console.log('selected source is: ' + source);
     this.newsapi.getArticlesByID(source).subscribe(data => this.mArticles = data['articles']);
   }
-  
+
 }
