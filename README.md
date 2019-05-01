@@ -17,7 +17,7 @@
 
 ## General info
 
-* Uses the model-view-viewmodel (MVVM) of Angular to bind the remote data that is stored in objects in our application template. The component plays the part of the controller/viewmodel. The template represents the view.
+* Uses the model-view-viewmodel (MVVM) of Angular to bind the remote data that is stored in objects in the application template. The component plays the part of the controller/viewmodel. The template represents the view.
 
 ## Screenshots
 
@@ -33,7 +33,7 @@
 
 * [News REST API](https://newsapi.org/) used to search for news articles.
 
-* [Angular Material Design v7.3.7](https://material.angular.io/) used for the user interface.
+* [Angular Material Design v7.3.7](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
 
 ## Setup
 
