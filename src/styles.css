@@ -1,10 +1,10 @@
-@import '~@angular/material/prebuilt-themes/purple-green.css';
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 body {
     padding: 2em 23em;
-    background:lightgray;
+    background:rgb(250, 248, 248);
 }
 
-/*other color options:
+/*color options:
 deeppurple-amber.css
 indigo-pink.css
 pink-bluegrey.css

@@ -25,15 +25,17 @@
 
 ## Technologies
 
-* [Angular v7.2.14](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
+
+* [Angular CLI v8.0.1](https://cli.angular.io/).
 
 * [Angular HttpClient](https://angular.io/guide/http) module used to communicate with back-end services via the XMLHttpRequest browser interface.
 
-* [RxJS Library v6.5.1](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observables](http://reactivex.io/documentation/observable.html).
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observables](http://reactivex.io/documentation/observable.html).
 
 * [News REST API](https://newsapi.org/) used to search for news articles.
 
-* [Angular Material Design v7.3.7](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
+* [Angular Material Design v8.0.0](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
 
 ## Setup
 
@@ -74,13 +76,15 @@ export class NewsApiService {
 
 * Angular httpClient used to get data from a news API.
 
-* Updated to latest Angular 7 version with all dependency conflicts resolved.
+* Updated to latest Angular 8 version with all dependency conflicts resolved.
+
+* angular material theme improved upon - now has white action buttons in the footer.
 
 ## Status & To-Do List
 
-* Status: Simple working app that gets API news data and displays it in a format suitable for viewing on a phone. User can select the news source from  menu.
+* Status: Working. Gets API news data and displays it in a format suitable for viewing on a phone. User can select the news source from  menu.
 
-* To-Do: improve UI to resize better so Dev tools screen can be opened properly. Photo sizing not quite right - images are sometimes distorted to fit fixed size.
+* To-Do: improve UI: photo sizing not quite right - images are sometimes distorted to fit fixed size.
 
 ## Inspiration
 
@@ -88,4 +92,4 @@ export class NewsApiService {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
