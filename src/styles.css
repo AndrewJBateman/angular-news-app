@@ -1,7 +1,9 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 body {
-    padding: 2em 23em;
+    padding: 10px;
     background:rgb(250, 248, 248);
+    max-width: 700px;
+    margin: auto auto;
 }
 
 /*color options:
