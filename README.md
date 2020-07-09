@@ -74,7 +74,7 @@ export class NewsApiService {
 ## :cool: Features
 
 * [Angular HttpClient](https://angular.io/guide/http) module used to communicate with back-end services via the XMLHttpRequest browser interface.
-* Updated to latest Angular 9 version with all dependency conflicts resolved.
+* Updated to latest Angular 10 version with all dependency conflicts resolved.
 * Angular material theme improved upon - now has white action buttons in the footer.
 
 ## :clipboard: Status & To-Do List
