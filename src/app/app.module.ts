@@ -28,7 +28,7 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule,
+    MatListModule
   ],
   providers: [NewsApiService],
   bootstrap: [AppComponent]

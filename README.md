@@ -29,6 +29,7 @@
 ## :books: General info
 
 * Uses the model-view-viewmodel (MVVM) of Angular to bind the remote data that is stored in objects in the application template. The component plays the part of the controller/viewmodel. The template represents the view.
+* Basic app to show news, does not use reactive programming best practices - specified function return types, typescript models, etc....
 
 ## :camera: Screenshots
 
@@ -44,7 +45,7 @@
 ## :floppy_disk: Setup
 
 * Install dependencies using `npm i`
-* Get yourself a free API key from `www.newsapi.org`
+* Get yourself a free API key from `www.newsapi.org` and add it to `news-api.service.ts`
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files.
 
 ## :computer: Code Examples
