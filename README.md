@@ -36,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observables](http://reactivex.io/documentation/observable.html).
 * [News REST API](https://newsapi.org/) used to search for news articles.
 * [Angular Material Design v10](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
