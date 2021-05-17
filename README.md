@@ -29,7 +29,7 @@
 ## :books: General info
 
 * Uses the model-view-viewmodel (MVVM) of Angular to bind the remote data that is stored in objects in the application template. The component plays the part of the controller/viewmodel. The template represents the view.
-* Basic app to show news, does not use reactive programming best practices - specified function return types, typescript models, etc....
+* Very basic app to show news, does not use reactive programming best practices - specified function return types, typescript models, etc....
 
 ## :camera: Screenshots
 
@@ -40,7 +40,7 @@
 * [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observables](http://reactivex.io/documentation/observable.html).
 * [News REST API](https://newsapi.org/) used to search for news articles.
-* [Angular Material Design v10](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
+* [Angular Material Design v12](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview)[mat-sidenav](https://material.angular.io/components/sidenav/overview), [mat-card](https://material.angular.io/components/card/overview) etc.
 
 ## :floppy_disk: Setup
 
