@@ -4,8 +4,12 @@
 * Displays a left hand side navigation bar that allows the user to select a news channel. A single column displays news articles from this news channel.
 * The News API service from [newsapi](https://newsapi.org) is used to generate the articles. It now only works on localhost. It will not work when deployed due to CORS errors (error 406) which means they want you to pay a subscription to fully access the API.
 * Code from [article by Rashid Sakara](https://www.smashingmagazine.com/2018/10/news-application-with-angular-and-material-design/) - see [:clap: Inspiration](#clap-inspiration) below
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-news-app?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-news-app?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-news-app?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-news-app?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -19,6 +23,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -76,7 +81,7 @@ export class NewsApiService {
 ## :cool: Features
 
 * [Angular HttpClient](https://angular.io/guide/http) module used to communicate with back-end services via the XMLHttpRequest browser interface.
-* Updated to latest Angular 11 version with all dependency conflicts resolved.
+* Updated may 2021
 
 ## :clipboard: Status & To-Do List
 
@@ -87,6 +92,10 @@ export class NewsApiService {
 
 * [article by Rashid Sakara on building a news application using Angular 6 and Google’s Material Design](https://www.smashingmagazine.com/2018/10/news-application-with-angular-and-material-design/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
