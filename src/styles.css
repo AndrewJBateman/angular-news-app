@@ -1,4 +1,4 @@
-@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
 body {
     padding: 10px;
     background:rgb(250, 248, 248);
