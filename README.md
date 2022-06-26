@@ -4,7 +4,6 @@
 * Displays a left hand side navigation bar that allows the user to select a news channel. A single column displays news articles from this news channel.
 * The News API service from [newsapi](https://newsapi.org) is used to generate the articles. It now only works on localhost. It will not work when deployed due to CORS errors (error 406) which means they want you to pay a subscription to fully access the API.
 * Code from [article by Rashid Sakara](https://www.smashingmagazine.com/2018/10/news-application-with-angular-and-material-design/) - see [:clap: Inspiration](#clap-inspiration) below
-* Updated to latest Angular version and all dependencies updated
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-news-app?style=plastic)
@@ -38,10 +37,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observables](http://reactivex.io/documentation/observable.html).
 * [News REST API v2](https://newsapi.org/) used to search for news articles.
-* [Angular Material Design v13](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview), [mat-sidenav](https://material.angular.io/components/sidenav/overview),  [mat-card](https://material.angular.io/components/card/overview) etc.
+* [Angular Material Design v14](https://material.angular.io/) used for the user interface, especially [mat-menu](https://material.angular.io/components/menu/overview), [mat-sidenav](https://material.angular.io/components/sidenav/overview),  [mat-card](https://material.angular.io/components/card/overview) etc.
 
 ## :floppy_disk: Setup
 
