@@ -16,26 +16,10 @@
 
 <!--sidenav component to add side content to a fullscreen app-->
 <mat-sidenav-container class="example-container">
-  <!--
-    A click event will:
-      -list sources using angular ngFor
-      -clicking on a source will activate function searchArticles() & will close sidebar
-      -show an avatar (from assets folder) for the source and the source name using data-binding
-  -->
   <mat-sidenav #sidenav class="example-sidenav">
     <mat-list class="list-nav">
-      <mat-list-item
-        class="list-item"
-        *ngFor="let source of (mSources$ | async)?.sources"
-        (click)="searchArticles(source.id); sidenav.close()"
-      >
-        <div
-          mat-card-avatar
-          [ngStyle]="{
-            'background-image': 'url(../assets/images/' + source.id + '.png)'
-          }"
-          class="example-header-image"
-        ></div>
+      <mat-list-item class="list-item" *ngFor="let source of (mSources$ | async)?.sources"
+        (click)="searchArticles(source.id); sidenav.close()">
         <span class="source-name"> {{ source.name }}</span>
       </mat-list-item>
     </mat-list>
@@ -47,26 +31,18 @@
     -mat-card-content with data-binding of article description
     -mat-card-actions with 4 buttons with mat-icons, 1 button with data-binding to a article url
   -->
-  <mat-card appearance="outlined" class="example-card" *ngFor="let article of (mArticles$ | async)?.articles; index as i">
+  <mat-card appearance="outlined" class="example-card"
+    *ngFor="let article of (mArticles$ | async)?.articles; index as i">
     <mat-card-header>
-      <div
-        mat-card-avatar
-        [ngStyle]="{
+      <div mat-card-avatar [ngStyle]="{
           'background-image':
             'url(../assets/images/' + article.source.id + '.png)'
-        }"
-        class="example-header-image"
-      ></div>
+        }" class="example-header-image"></div>
       <mat-card-title class="title">{{ article.title }}</mat-card-title>
       <mat-card-subtitle>{{ article.source.name }}</mat-card-subtitle>
     </mat-card-header>
 
-    <img
-      mat-card-image
-      class="img-article"
-      src="{{ article.urlToImage }}"
-      alt=""
-    />
+    <img mat-card-image class="img-article" src="{{ article.urlToImage }}" alt="" />
     <mat-card-content>
       <p>
         {{ article.description }}
@@ -77,9 +53,7 @@
         <mat-icon>thumb_up_alt</mat-icon> 12 Likes
       </button>
       <button mat-button color="white"><mat-icon>share</mat-icon> Share</button>
-      <a mat-button color="white" href="{{ article.url }}" target="_blank"
-        ><mat-icon>visibility</mat-icon> More</a
-      >
+      <a mat-button color="white" href="{{ article.url }}" target="_blank"><mat-icon>visibility</mat-icon> More</a>
     </mat-card-actions>
   </mat-card>
 </mat-sidenav-container>
